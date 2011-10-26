@@ -5,7 +5,7 @@ your servers, courtesy of [[http://www.montastic.com/][Montastic]], "the free we
 that doesn't suck." You will need a free Montastic account to use this
 widget.
 
-See [http://www.jimmenard.com/projects/montastic_dashboard/] for
+See http://www.jimmenard.com/projects/montastic_dashboard/index.html for
 installation and set-up instructions.
 
 This widget is by Jim Menard (jim@jimmenard.com).
