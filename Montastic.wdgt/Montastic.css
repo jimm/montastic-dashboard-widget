@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+}
+
+.content{ 
+  position: absolute;
+  top:0;
+  left:0;
+  margin:0px;
+  padding:0px;
+  font: 11px "Lucida Grande" Arial sans-serif;
+  color: white;
+}
+
+#screen {
+  position: absolute;
+  top:33px;
+  left:6px;
+}
+
+#icon {
+  position: absolute;
+  top:41px;
+  left:38px;
+  z-index:2;
+}
+
+#statusText {
+  position: absolute;
+  top:94px;
+  left:20px;
+  z-index:3;
+}
+
+#overlay {
+  position: absolute;
+  top:33px;
+  left:6px;
+  z-index:4;
+}
+
+.eyeButton { 
+  position: absolute;
+  bottom:11px;
+  left: 100px;
+  width: 13px;
+  height: 13px;
+}
+
+#eyeFront { 
+  opacity:0;
+  background:url(file:///System/Library/WidgetResources/ibutton/white_i.png) No-repeat top left;
+  z-index:1024;
+}
+
+#eyeBack { 
+  display:none;
+  opacity:0.25;
+  background:url(file:///System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+  z-index:1023;
+}
+
+#doneButton {
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+}
+
+#front {
+  background:url(Images/body.png);
+}
+
+#back {
+  display: none;
+  background:url(Images/back.png);
+}
+
+#version{
+  font: 7px "Lucida Grande";
+  text-align: left;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 19px;
+}

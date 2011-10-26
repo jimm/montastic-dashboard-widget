@@ -1,0 +1,27 @@
+* Montastic Dashboard Widget
+
+The Montastic Dashboard widget for Mac OS X lets you see the status of all
+your servers, courtesy of [[http://www.montastic.com/][Montastic]], "the free website monitoring service
+that doesn't suck." You will need a free Montastic account to use this
+widget.
+
+See http://www.jimmenard.com/projects/montastic_dashboard/ for installation
+and set-up instructions.
+
+This widget is by Jim Menard (jim@jimmenard.com).
+
+* To Do
+
+- http://updates.metadot.com/
+
+- Update page on jimmenard.com?
+
+- Update checker code
+
+- About box
+
+- Comment code
+
+* Notes
+
+Need to use Safari to upload to Apple.

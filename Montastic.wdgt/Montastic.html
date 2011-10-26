@@ -1,0 +1,52 @@
+<html>
+<!--
+ -- Montastic Dashboard widget by Jim Menard (jimm@io.com), February 2007.
+ -- Icons and graphics by Montastic, used with their permission.
+ -- Some JavaScript code from Joshua Emmons (skia.net), used with implicit
+ -- permission (see the src/*.js files).
+ -- Everything else is released to the public domain.
+ -->
+<head>
+<style type="text/css">
+  @import "Montastic.css";
+</style>
+<script type='text/javascript' src='src/prefs.js' charset='utf-8'/>
+<script type='text/javascript' src='src/effects.js' charset='utf-8'/>
+<script type='text/javascript' src='src/net.js' charset='utf-8'/>
+<script type='text/javascript' src='src/events.js' charset='utf-8'/>
+<script type='text/javascript'
+         src='file:///System/Library/WidgetResources/button/genericButton.js' />
+<script type='text/javascript' src='src/montastic.js' />
+</head>
+
+<body onload="setup();">
+  <div id="front" onmouseover="fadeInEye();" onmouseout="fadeOutEye();">
+    <div class="content">
+      <img src="Images/body.png"/>
+      <div id="screen"></div>
+      <div id="icon"></div>
+      <div id="statusText"></div>
+      <div id="overlay" onclick="goToServerPage(event);"></div>
+      <div class='eyeButton' id='eyeFront'
+        onclick='hideEyeBack();doFlipToBack();'
+        onmouseover='showEyeBack();'
+        onmouseout='hideEyeBack();'></div>
+      <div class='eyeButton' id='eyeBack'></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="back">
+    <img src="Images/body.png"/>
+    <div class="content">
+      <br/><br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;Key:<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="key" id="key"
+        value="" size="13"/>
+    </div>
+    <div id="doneButton"></div>      
+    <div id="version"></div>
+  </div>
+</body>
+
+</html>
